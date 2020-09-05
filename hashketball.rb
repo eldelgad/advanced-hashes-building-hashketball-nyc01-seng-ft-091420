@@ -4,11 +4,6 @@ def game_hash
     :home => {
        team_name: "Brooklyn Nets",
        colors: ["Black","White"],
-       players: [{}]
-    },
-    :away => {
-       team_name: "Charlotte Hotnets",
-       colors: ["Turquoise","Purple"],
        players: [{
          player_name: "Alan Anderson",
          number: 0,
@@ -20,6 +15,11 @@ def game_hash
          blocks: 1,
          slam_dunks: 1
        }]
+    },
+    :away => {
+       team_name: "Charlotte Hotnets",
+       colors: ["Turquoise","Purple"],
+       players: [{}]
     }
   }
   
