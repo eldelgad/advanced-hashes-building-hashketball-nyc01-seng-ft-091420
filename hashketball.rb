@@ -3,13 +3,13 @@ def game_hash
   {
     :home => {
        team_name: "Brooklyn Nets",
-       colors: ["Black",""],
-       players: []
+       colors: ["Black","White"],
+       players: [{}]
     },
     :away => {
-       team_name: "",
-       colors: [],
-       players: []
+       team_name: "Charlotte Hotnets",
+       colors: ["Turquoise","Purple"],
+       players: [{}]
     }
   }
   
