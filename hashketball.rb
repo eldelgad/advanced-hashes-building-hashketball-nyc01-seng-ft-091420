@@ -2,11 +2,12 @@ def game_hash
   
   {
     :home => {
+      
        team_name: "Brooklyn Nets",
        colors: ["Black","White"],
-       players: [
+       players: [{
          
-         {player_name: "Alan Anderson",
+         player_name: "Alan Anderson",
          number: 0,
          shoe: 16,
          points: 22,
@@ -62,6 +63,7 @@ def game_hash
        team_name: "Charlotte Hotnets",
        colors: ["Turquoise","Purple"],
        players: [{
+         
          player_name: "Jeff Adrien", 
          number: 4,
          shoe: 18,
@@ -111,7 +113,7 @@ def game_hash
          steals: 7,
          blocks: 5,
          slam_dunks: 12}
-         ]
+      ]
     }
   }
   
