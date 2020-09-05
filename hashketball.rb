@@ -55,9 +55,9 @@ def game_hash
       ]
   },
   :away=> {
-    :team_name => "Charlotte Hotnets",
-    :colors => ["Turquoise","Purple"],
-    :players => [
+    :team_name=> "Charlotte Hotnets",
+    :colors=> ["Turquoise","Purple"],
+    :players=> [
       player_name: "Alan Anderson", 
       number: 0,
       shoe: 16,
